@@ -1,15 +1,43 @@
----
-title: Le Wagon - Middleman
----
+<div class="navbar-wagon">
+  <!-- Logo -->
+  <a href="/" class="navbar-wagon-brand">
+    <img src="images/icone.png" alt="logo">
+  </a>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <a href="#team" class="navbar-wagon-item navbar-wagon-link">L'équipe</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+
+    <!-- Profile picture with dropdown list -->
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Host</a></li>
+        <li><a href="#">Trips</a></li>
+        <li><a href="#">Messagese</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 <div id="home">
   <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
+    <h1>
+      Creat'in
+    </h1>
+    <h5>Le développement web sur mesure</h5>
     <p class="about">
-      <%= link_to "More about this template", "about.html" %>
+      <%= link_to "", "about.html" %>
     </p>
   </div>
+</div>
+
+<div id="team" class="banner">
+  <h1 >L'équipe</h1>
 </div>
