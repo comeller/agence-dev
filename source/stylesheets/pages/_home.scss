@@ -1,7 +1,7 @@
 #home {
   background-color: white;
   background-position: center;
-  color: #1e5193;
+  color: $blue;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -22,7 +22,7 @@
 }
 
 .banner {
-  background-color: #1e5193;
+  background-color: $blue;
   height: 100vh;
   width: 100%;
   color: white;
@@ -51,4 +51,3 @@
   font-style: italic;
   text-align: center;
 }
-
