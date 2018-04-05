@@ -17,9 +17,7 @@
   }
 }
 
-.row {
-  padding: 30px;
-}
+.home-content {}
 
 .banner {
   background-color: $blue;
@@ -33,21 +31,26 @@
 .titre  {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 10vh;
   font-size: 42px;
-}
-
-.member {
-  padding-bottom: 30px;
+  font-family: 'Song Myung', serif;
 }
 
 .nom {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 36px;
+  font-size: 36px;
 }
 
 .description {
   font-size: 16px;
   font-style: italic;
   text-align: center;
+  padding: 0 30px;
 }
+
+.member {
+  height: 40vh;
+}
+
