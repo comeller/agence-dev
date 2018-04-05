@@ -1,15 +1,69 @@
----
-title: Le Wagon - Middleman
----
+<div class="navbar-wagon">
+  <!-- Logo -->
+  <a href="/" class="navbar-wagon-brand">
+    <img src="images/icone.png" alt="logo">
+  </a>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <a href="#team" class="navbar-wagon-item navbar-wagon-link">L'équipe</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+
+    <!-- Profile picture with dropdown list -->
+  </div>
+
+
+</div>
 
 <div id="home">
   <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
+    <h1>
+      Creat'in
+    </h1>
+    <h5>Le développement web sur mesure</h5>
     <p class="about">
-      <%= link_to "More about my new page", "new_page.html.erb" %>
+      <%= link_to "", "about.html" %>
     </p>
+  </div>
+</div>
+
+<div id="team" class="banner">
+  <div class="container">
+  <div class="row">
+    <div class="titre">L'équipe</div>
+    <div class="col-xs-12 col-sm-6 member">
+        <div class="nom">
+          Nico
+        </div>
+        <div class="description">
+          "Après mon parcours scolaire à Polytechnique/HEC, j'ai passé plusieurs années en finance de marché. Je suis avant tout un passionné d'intelligence artificielle (Predictive analytics, Machine Learning, etc.)."
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 member">
+        <div class="nom">
+          Côme
+        </div>
+        <div class="description">
+          "Je suis le petit jeune de l'équipe. J'ai décidé de faire un bootcamp après mes études en école de commerce pour me lancer dans le code rapidement."
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 member">
+        <div class="nom">
+          Micka
+        </div>
+        <div class="description">
+          "Urgentiste de formation, j'ai toujours été atiré par le code. J'adore être confronté à toutes les problématiques en back-office. Mon point fort, c'est de résoudre des problèmes."
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 member">
+        <div class="nom">
+          JB
+        </div>
+        <div class="description">
+          Après 3 années en tant qu'auditeur financier dans un cabinet du big 4, j'ai décidé de m'orienter vers le monde du développement informatique qui me passionne.
+        </div>
+      </div>
+    </div>
   </div>
 </div>
