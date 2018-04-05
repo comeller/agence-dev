@@ -11,13 +11,31 @@
     margin-top: 1.5em;
   }
   a {
-    color: rgba(0,0,0,0.4);
+    color: white;
     font-weight: bold;
     font-size: 16px;
   }
 }
 
-.home-content {}
+.home-content {
+  display: flex;
+  text-align:center;
+  width: 50%;
+  h5 {
+    margin: 0;
+  }
+}
+
+.cerveau {
+  position: relative;
+}
+
+.accueil {
+    flex-direction: column;
+    align-self: flex-end;
+    position: absolute;
+    left: 50%;
+}
 
 .banner {
   background-color: $blue;
@@ -34,7 +52,6 @@
   margin-top: 20px;
   margin-bottom: 10vh;
   font-size: 42px;
-  font-family: 'Song Myung', serif;
 }
 
 .nom {
