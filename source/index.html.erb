@@ -1,11 +1,11 @@
 <div class="navbar-wagon">
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/cerveau.png" alt="logo">
+    <i class="fab fa-rocketchat fa-2x"></i>
   </a>
   <div class="navbar-wagon-right hidden-xs hidden-sm">
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Home</a>
     <a href="#services" class="navbar-wagon-item navbar-wagon-link">Services</a>
-    <a href="#team" class="navbar-wagon-item navbar-wagon-link">Team</a>
+    <a href="#team" class="navbar-wagon-item navbar-wagon-link">L'équipe</a>
+    <a href="#réalisations" class="navbar-wagon-item navbar-wagon-link">Réalisations</a>
     <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
   </div>
 </div>
@@ -17,7 +17,7 @@
     </div>
     <div class="accueil">
       <h1>
-        Creat'in
+        <strong>Creat'in</strong>
       </h1>
       <h5>Le développement web sur mesure</h5>
       <p class="about">
@@ -32,7 +32,7 @@
 <div id="services">
   <div class="container">
     <div class="row">
-      <div class="titre">Les services</div>
+      <div class="titre border-bottom">Les services</div>
       <div class="col-xs-12 col-sm-6 service">
         <div class="icone"><i class="fas fa-keyboard fa-4x"></i></div>
         <div class="title">Création site Internet</div>
@@ -68,10 +68,10 @@
 <div id="team" class="banner">
   <div class="container">
     <div class="row">
-      <div class="titre">Les 4 fondateurs</div>
+      <div class="titree border-bottomm">Les 4 fondateurs</div>
       <div class="col-xs-12 col-sm-6 member">
         <div class="nom">
-          Nico
+          Nicolas
         </div>
         <div class="description">
           "Après mon parcours scolaire à Polytechnique/HEC, j'ai passé plusieurs années en finance de marché. Je suis avant tout un passionné d'intelligence artificielle (Predictive analytics, Machine Learning, etc.)."
@@ -87,7 +87,7 @@
       </div>
       <div class="col-xs-12 col-sm-6 member">
         <div class="nom">
-          Micka
+          Mickaël
         </div>
         <div class="description">
           "Urgentiste de formation, j'ai toujours été atiré par le code. J'adore être confronté à toutes les problématiques en back-office. Mon point fort, c'est de résoudre des problèmes."
@@ -95,7 +95,7 @@
       </div>
       <div class="col-xs-12 col-sm-6 member">
         <div class="nom">
-          JB
+          Jean-Baptiste
         </div>
         <div class="description">
           Après 3 années en tant qu'auditeur financier dans un cabinet du big 4, j'ai décidé de m'orienter vers le monde du développement informatique qui me passionne.
@@ -105,5 +105,45 @@
   </div>
 </div>
 
+<div id="réalisations" class="projets">
+  <div class="container">
+    <div class="row">
+      <div class="titre border-bottom">Nos réalisations</div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="projet">Endurace</div>
+        <a target="_blank" href="https://www.endurace.club/">
+          <div class="projet">
+            <div> <%= image_tag 'endurace.gif', class: "card" %></div>
+          </div>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="projet"> Beetroot </div>
+        <a target="_blank" href="http://www.beetroot.club/">
+          <div class="projet">
+            <div> <%= image_tag 'beetroot.gif', class: "card" %></div>
+          </div>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="projet">Phone Mapper</div>
+        <a target="_blank" href="http://www.phonemapper.win/">
+          <div class="projet">
+            <div> <%= image_tag 'phone_mapper.gif', class: "card" %></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="footer">
+  <div class="footer-links">
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Nous contacter</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Nous trouver</a>
+  </div>
+  <div class="footer-copyright">
+    "Creat'in, le développement d'applications web sur-mesure"
+  </div>
+</div>
 
