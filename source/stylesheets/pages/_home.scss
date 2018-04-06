@@ -1,28 +1,23 @@
 #home {
-  background-color: #ffffff;
-  background-position: center;
+  margin: 10px;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 50%), image-url('nature.jpg');
+  background-size: 100%;
+  background-position: cover;
   color: $blue;
   height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  p {
-    margin-top: 1.5em;
-  }
-  a {
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-    width: 100%;
-  }
 }
 
 .home-content {
+  background-position: center;
   margin-top: -15vh;
   display: flex;
   text-align:center;
-  width: 60%;
+  width: 90%;
+  height: 100%;
   h5 {
     margin: 0;
     color: #a9a9a9;
@@ -41,35 +36,34 @@
 }
 
 #services {
-  background-color: $blue;
-  height: 100vh;
-  width: 100%;
+  margin: 10px;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 50%), image-url('bois.jpg');
+  background-size: 100%;
+  background-position: cover;
+  height: 70vh;
   display: flex;
   justify-content: center;
 }
 
 .titre  {
   color: white;
-  display: flex;
-  justify-content: center;
   margin-top: 30px;
   margin-bottom: 10vh;
-  font-size: 42px;
-  width: 33%;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 36px;
+}
+
+.mail  {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10vh;
+  font-size: 24px;
 }
 
 .titree  {
-  color: $blue;
-  display: flex;
-  justify-content: center;
+  color: white;
   margin-top: 30px;
   margin-bottom: 10vh;
-  font-size: 42px;
-  width: 33%;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 24px;
 }
 
 .nom {
@@ -95,9 +89,10 @@
 }
 
 .border-bottom {
-   padding-bottom: 5px;
-   border-bottom: 1px solid white;
-   text-align: center;
+  margin: 60px 0px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+  text-align: center;
  }
 
 .border-bottomm {
@@ -116,6 +111,7 @@
 }
 
 .service {
+  margin-top: 50px;
   height: 40vh;
 }
 
@@ -123,14 +119,14 @@
   text-align: center;
   margin-bottom: 16px;
   margin-top: 16px;
-  font-size: 36px;
+  font-size: 24px;
   color: white;
 }
 
 
 .icone {
   text-align: center;
-  color: #fcce2d;
+  color: white;
 }
 
 .projets {
@@ -140,7 +136,7 @@
 }
 
 .projet {
-  color: #fcce2d;
+  color: #a9a9a9;
   text-align: center;
   margin-bottom: 16px;
   margin-top: 16px;
@@ -161,5 +157,5 @@
 }
 
 .container {
-  padding-top: 80px;
+  padding-top: 0px;
 }

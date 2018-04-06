@@ -6,6 +6,8 @@
   height: 20vh;
   padding: 0px 50px;
   color: #a9a9a9;
+  font-style: italic;
+  font-size: 14px;
 }
 .footer-links {
   display: flex;
@@ -23,6 +25,8 @@
 }
 
 .footer-copyright {
+  display: flex;
+  justify-content: center;
   font-style: italic;
   font-size: 14px;
 }
