@@ -102,3 +102,12 @@
   text-align: center;
   color: #fcce2d;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  padding-top: 80px;
+}

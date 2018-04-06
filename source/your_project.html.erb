@@ -1,17 +1,20 @@
 <div class="container">
   <div class="row">
-    <div class="col-xs-12 col-sm-6">
-      <form action="https://getsimpleform.com/messages?form_api_token=<form_api_token>" method="post">
-
-        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-        <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
-
-        <!-- all your input fields here.... -->
-        <input type='text' name='test' />
-
-        <input type='submit' value='Test form' />
-      </form>
-
+    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+      <div class="form">
+        <form action="https://formspree.io/jbchenut@gmail.com"
+              method="POST">
+            <div class="form">
+              <input type="text" name="name" placeholder="Nom de l'entreprise">
+              <br>
+              <input type="email" name="_replyto" placeholder="Entrez l'addresse e-mail">
+              <br>
+              <input type="text" name="name" placeholder="Entrez votre message">
+              <br>
+              <input type="submit" value="ENVOYER">
+            </div>
+        </form>
+      </div>
     </div>
   </div>
 </div>
