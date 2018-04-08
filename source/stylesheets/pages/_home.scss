@@ -4,35 +4,25 @@
   background-size: 100%;
   background-position: cover;
   color: $blue;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 
-.home-content {
-  background-position: center;
-  margin-top: -15vh;
+
+.presentation {
+  padding: 0 18vh;
+  height: 50vh;
+  background-color: $blue;
+  color: white;
   display: flex;
-  text-align:center;
-  width: 90%;
-  height: 100%;
-  h5 {
-    margin: 0;
-    color: #a9a9a9;
-  }
-}
-
-.cerveau {
-  position: relative;
-}
-
-.accueil {
-    flex-direction: column;
-    align-self: flex-end;
-    position: absolute;
-    left: 60%;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 18px;
+  font-style: italic;
 }
 
 #services {
@@ -40,7 +30,7 @@
   background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 50%), image-url('bois.jpg');
   background-size: 100%;
   background-position: cover;
-  height: 70vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
 }
@@ -72,14 +62,6 @@
   font-size: 36px;
 }
 
-.text {
-  font-size: 16px;
-  font-style: italic;
-  text-align: center;
-  padding: 0 30px;
-  color: #a9a9a9;
-}
-
 .description {
   color: #a9a9a9;
   font-size: 16px;
@@ -101,18 +83,9 @@
    text-align: center;
  }
 
-.member {
-  height: 40vh;
-}
-
-.banner {
-  color: $blue;
-  background-color: white;
-}
 
 .service {
   margin-top: 50px;
-  height: 40vh;
 }
 
 .title {
@@ -127,35 +100,4 @@
 .icone {
   text-align: center;
   color: white;
-}
-
-.projets {
-  height: 80vh;
-  background-color: $blue;
-  color: #a9a9a9;
-}
-
-.projet {
-  color: #a9a9a9;
-  text-align: center;
-  margin-bottom: 16px;
-  margin-top: 16px;
-  font-size: 36px;
-}
-
-.card {
-  height: 125px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-  background-size: cover !important;
-  background-position: center;
-  color: white;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-}
-
-.container {
-  padding-top: 0px;
 }
